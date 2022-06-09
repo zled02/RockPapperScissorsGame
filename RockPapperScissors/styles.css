@@ -1,0 +1,67 @@
+body {
+background: url("game.gif");
+color: rgb(255, 255, 255);
+font-size: 250%;
+border-color: rgb(0, 0, 0);
+border-radius: 20px; 
+font-family: Permanent Marker;
+
+  }
+  .maker{
+    text-align: right;
+    font-size: 70%;
+    color: rgb(4, 248, 236);
+  }
+  .cim{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: #DB3F4A;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px; 
+  }
+  
+  .selections {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .selection {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 5rem;
+    transition: 100ms;
+  }
+  .selection:hover{
+    transform: scale(1.5);
+  }
+  .selection:active {
+    transform:scale(1);
+    
+  }
+  
+  .results {
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    color: #FB600D;
+  }
+  
+  .result-score {
+    margin-left: .1rem;
+    font-size: 150%;
+    color: #7EFF46;
+  }
+  
+  .result-selection {
+    opacity: .5;
+  }
+  
+  .result-selection.winner {
+    opacity: 1;
+    font-size: 4rem;
+  }
